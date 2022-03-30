@@ -2,7 +2,7 @@
 
 A Minecraft mod, current placeholder name is “Lava”
 
-This mod will be for Minecraft version 1.18, using Forge 38.0.6
+This mod will be for Minecraft version 1.18, using Forge 38.0.17
 
 ## Summary
 
@@ -55,7 +55,7 @@ Omtentavecka
 
 ## Naming convention
 
-- Variables and functions will follow the snake case convention
+- Variables and functions will follow the camelCase convention
 - Branch names “#-name” where # is the number of the issue it solves
 - Issues and commits follow standard git conventions and are in future tense
 
