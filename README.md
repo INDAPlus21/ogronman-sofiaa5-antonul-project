@@ -1,4 +1,4 @@
-# ogronman-sofiaa5-project
+# ogronman-sofiaa5-antonul-project
 
 A Minecraft mod, current placeholder name is “Lava”
 
