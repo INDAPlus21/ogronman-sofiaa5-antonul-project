@@ -6,7 +6,7 @@ This mod will be for Minecraft version 1.18, using Forge 38.0.17
 
 ## Important info
 
-Gradle will not import the necessary dependencies when importing on linux (possibly mac) since git forcefully changes some file endings. This may possibly become problem.
+Gradle will not import the necessary dependencies when importing on linux (possibly mac) since git forcefully changes some line endings. This may possibly become problem. (LF will be replaced by CRLF)
 
 
 
