@@ -8,6 +8,7 @@ This mod will be for Minecraft version 1.18, using Forge 38.0.17
 
 Gradle will not import the necessary dependencies when importing on linux (possibly mac) since git forcefully changes some line endings. This may possibly become problem. (LF will be replaced by CRLF)
 
+This problem should only affect WSL and WSL 2 users for more information and possible solution see [here](https://github.com/microsoft/WSL/issues/4309)
 
 
 ## Summary
