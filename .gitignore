@@ -3,3 +3,4 @@ run/crash-reports
 *.gz
 *.log
 run/saves
+LavaMod/gradle./
