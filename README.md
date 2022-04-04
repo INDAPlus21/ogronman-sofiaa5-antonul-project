@@ -4,6 +4,12 @@ A Minecraft mod, current placeholder name is “Lava”
 
 This mod will be for Minecraft version 1.18, using Forge 38.0.17
 
+## Important info
+
+Gradle will not import the necessary dependencies when importing on linux (possibly mac) since git forcefully changes some file endings. This may possibly become problem.
+
+
+
 ## Summary
 
 In this project we will create a mod for Minecraft 1.18 using Forge. This mod will revamp the mod “carpenter's blocks” and bring it to a newer version of Minecraft. Which brings more complex shapes to Minecraft like slopes. As well as gives the player the ability to change the look/texture of certain blocks. Since a mod can be how big or small the developers want it to be, this project is quite feasible. Since we can either scale up or down the project to fit the time quota. 
