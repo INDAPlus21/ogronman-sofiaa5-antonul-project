@@ -2,7 +2,14 @@
 
 A Minecraft mod, current placeholder name is “Lava”
 
-This mod will be for Minecraft version 1.18, using Forge 38.0.6
+This mod will be for Minecraft version 1.18, using Forge 38.0.17
+
+## Important info
+
+Gradle will not import the necessary dependencies when importing on linux (possibly mac) since git forcefully changes some line endings. This may possibly become problem. (LF will be replaced by CRLF)
+
+This problem should only affect WSL and WSL 2 users for more information and possible solution see [here](https://github.com/microsoft/WSL/issues/4309)
+
 
 ## Summary
 
@@ -55,7 +62,7 @@ Omtentavecka
 
 ## Naming convention
 
-- Variables and functions will follow the snake case convention
+- Variables and functions will follow the camelCase convention
 - Branch names “#-name” where # is the number of the issue it solves
 - Issues and commits follow standard git conventions and are in future tense
 
