@@ -1,3 +1,0 @@
-This is a placeholder for this otherwise empty folder...
-
-This file is necessary for the mod structure, however git can not track empty directories. 
