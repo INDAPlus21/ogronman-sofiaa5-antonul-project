@@ -1,0 +1,12 @@
+9769e85de0876d53f5d8b4c62e500672341f7efd assets/examplemod/blockstates/new_wood.json
+704f80d2c9fef741d70f366b316bdc352280ce59 assets/examplemod/lang/en_us.json
+b196215ae3c30bb0c612a77be583c801d4ab85f4 assets/examplemod/models/block/new_wood.json
+c0776474bd4e6d98bcce9d7bd2f79d7e300703cc assets/examplemod/models/item/new_wood.json
+286b3c8752a3bcb5c35d3858942237165e5e0eba data/examplemod/advancements/recipes/example/new_wood.json
+40bfc75988783010527e100b1479aa04d49eeb42 data/examplemod/recipes/new_wood.json
+44bb9ff47283eaeac693c29afd74fdc547fb456f data/forge/tags/items/stone.json
+44bb9ff47283eaeac693c29afd74fdc547fb456f data/minecraft/tags/blocks/climbable.json
+44bb9ff47283eaeac693c29afd74fdc547fb456f data/minecraft/tags/blocks/mineable/pickaxe.json
+44bb9ff47283eaeac693c29afd74fdc547fb456f data/minecraft/tags/blocks/needs_stone_tool.json
+44bb9ff47283eaeac693c29afd74fdc547fb456f data/minecraft/tags/blocks/non_flammable_wood.json
+44bb9ff47283eaeac693c29afd74fdc547fb456f data/minecraft/tags/blocks/planks.json
