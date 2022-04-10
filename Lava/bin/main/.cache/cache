@@ -1,0 +1,7 @@
+494e23d0a9aed63796aaa9f378cc809a4be27e53 assets/lava/blockstates/obsidian_inscriptions.json
+dc6a196bee4455ba49933c6e4aea10f6cf539d5d assets/lava/lang/en_us.json
+09ea66eb20504f43933dce0385782a3718b1918e assets/lava/models/block/obsidian_inscriptions.json
+1a3c6cdc93ee5c2661bc74a9a33af4d600f1a9ee assets/lava/models/item/obsidian_inscriptions.json
+f1c19212f7fdbd50678b53e9bf602197e68a64bd data/minecraft/tags/blocks/dragon_immune.json
+f1c19212f7fdbd50678b53e9bf602197e68a64bd data/minecraft/tags/blocks/mineable/pickaxe.json
+f1c19212f7fdbd50678b53e9bf602197e68a64bd data/minecraft/tags/blocks/needs_diamond_tool.json
