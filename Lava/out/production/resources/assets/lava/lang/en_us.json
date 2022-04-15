@@ -1,4 +1,5 @@
 {
+  "block.lava.frame_block": "Frame Block",
   "block.lava.obsidian_inscriptions": "Obsidian Inscriptions",
-  "itemGroup.Lava Mod": "Lava"
+  "itemGroup.lavamod": "Lava"
 }

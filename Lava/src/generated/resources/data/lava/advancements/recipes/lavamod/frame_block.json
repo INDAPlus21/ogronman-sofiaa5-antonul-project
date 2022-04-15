@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "lava:frame_block"
+    ]
+  },
+  "criteria": {
+    "mysterious": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lava:frame_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "lava:frame_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mysterious",
+      "has_the_recipe"
+    ]
+  ]
+}

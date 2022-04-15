@@ -16,6 +16,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.level.levelgen.feature.StructureFeature;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import se.datasektionen.lava.blocks.FrameBlock;
 
 public class Registration {
 
@@ -41,6 +42,9 @@ public class Registration {
 
 	public static final RegistryObject<Block> OBSIDIAN_INSCRIPTIONS = BLOCKS.register("obsidian_inscriptions", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(50f).explosionResistance(1200f)));
 	public static final RegistryObject<Item> OBSIDIAN_INSCRIPTIONS_ITEM = fromBlock(OBSIDIAN_INSCRIPTIONS);
+
+	public static final RegistryObject<FrameBlock> FRAME_BLOCK = BLOCKS.register("frame_block", FrameBlock::new);
+	public static final RegistryObject<Item> FRAME_BLOCK_ITEM = fromBlock(FRAME_BLOCK);
 
 	public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
 		return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

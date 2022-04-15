@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lava",
+  "pattern": [
+    "x x",
+    " x ",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "lava:frame_block"
+  }
+}

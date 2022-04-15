@@ -12,6 +12,6 @@ public class LootTables extends BaseLootTableProvider {
 
     @Override
     protected void addTables() {
-
+        lootTables.put(Registration.FRAME_BLOCK.get(), createSimpleTable("frame_block", Registration.FRAME_BLOCK.get()));
     }
 }
