@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lava:block/frame_block"
+    }
+  }
+}

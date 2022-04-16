@@ -17,6 +17,7 @@ public class ItemModels extends ItemModelProvider {
 	@Override
 	protected void registerModels() {
 		withExistingParent(Registration.OBSIDIAN_INSCRIPTIONS_ITEM.get().getRegistryName().getPath(), modLoc("block/obsidian_inscriptions"));
+		withExistingParent(Registration.FRAME_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/frame_block"));
 	}
 
 }

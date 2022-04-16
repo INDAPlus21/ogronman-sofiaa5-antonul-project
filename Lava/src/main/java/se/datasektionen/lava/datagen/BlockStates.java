@@ -16,7 +16,9 @@ public class BlockStates extends BlockStateProvider {
 
 	@Override
 	protected void registerStatesAndModels() {
+
 		simpleBlock(Registration.OBSIDIAN_INSCRIPTIONS.get());
+		simpleBlock(Registration.FRAME_BLOCK.get());
 	}
 
 }

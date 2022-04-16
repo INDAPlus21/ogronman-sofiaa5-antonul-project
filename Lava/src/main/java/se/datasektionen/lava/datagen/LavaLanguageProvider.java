@@ -18,6 +18,7 @@ public class LavaLanguageProvider extends LanguageProvider {
 	protected void addTranslations() {
 		add("itemGroup." + ModSetup.TAB_NAME, "Lava");
 		add(Registration.OBSIDIAN_INSCRIPTIONS.get(), "Obsidian Inscriptions");
+		add(Registration.FRAME_BLOCK.get(), "Frame Block");
 	}
 
 }
