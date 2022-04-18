@@ -82,5 +82,7 @@ public class SlopeBlock extends HorizontalDirectionalBlock {
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
 		return defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
+	
+	
 
 }
