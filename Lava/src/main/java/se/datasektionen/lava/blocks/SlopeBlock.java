@@ -37,7 +37,7 @@ public class SlopeBlock extends HorizontalDirectionalBlock {
 	private static final Map<Direction, VoxelShape> SHAPES = new EnumMap<>(Direction.class);
 	
 	public SlopeBlock() {
-		super(Properties.of(Material.METAL).noOcclusion().strength(2.0f).requiresCorrectToolForDrops());
+		super(Properties.of(Material.WOOD).noOcclusion().strength(2.0f).requiresCorrectToolForDrops());
 		registerDefaultState(this.defaultBlockState().setValue(FACING, Direction.NORTH));
 		runCalculation(SHAPE.orElse(Shapes.block()));
 	}
@@ -51,6 +51,8 @@ public class SlopeBlock extends HorizontalDirectionalBlock {
 			Block.box(0, 6, 6, 16, 8, 16),
 			Block.box(0, 8, 8, 16, 12, 16),
 			Block.box(0, 12, 13, 16, 16, 16)
+			//Block.box(0, 0, 0, 16, 23, 0),
+			//Block.box(0, 0, 16, 16, 16, 16)
 			).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR));
 
 	@Override
@@ -82,5 +84,7 @@ public class SlopeBlock extends HorizontalDirectionalBlock {
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
 		return defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
+	
+	
 
 }
