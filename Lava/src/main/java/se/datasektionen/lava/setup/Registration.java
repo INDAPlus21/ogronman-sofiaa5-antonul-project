@@ -17,6 +17,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.level.levelgen.feature.StructureFeature;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import se.datasektionen.lava.blocks.FrameBlock;
+import se.datasektionen.lava.blocks.SlopeBlock;
 
 public class Registration {
 
@@ -35,7 +36,7 @@ public class Registration {
 		BLOCK_ENTITIES.register(bus);
 		CONTAINERS.register(bus);
 		ENTITIES.register(bus);
-		STRUCTURES.register(bus);
+		STRUCTURES.register(bus); 
 	}
 
 	public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
@@ -45,6 +46,9 @@ public class Registration {
 
 	public static final RegistryObject<FrameBlock> FRAME_BLOCK = BLOCKS.register("frame_block", FrameBlock::new);
 	public static final RegistryObject<Item> FRAME_BLOCK_ITEM = fromBlock(FRAME_BLOCK);
+	
+	public static final RegistryObject<SlopeBlock> SLOPE_BLOCK = BLOCKS.register("slope_block", () -> new SlopeBlock());
+	public static final RegistryObject<Item> SLOPE_BLOCK_ITEM = fromBlock(SLOPE_BLOCK);
 
 	public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
 		return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

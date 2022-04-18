@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "mysterious": {
+    "framing": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "mysterious",
+      "framing",
       "has_the_recipe"
     ]
   ]

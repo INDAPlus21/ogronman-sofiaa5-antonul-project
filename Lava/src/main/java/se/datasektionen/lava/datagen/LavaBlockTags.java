@@ -18,7 +18,8 @@ public class LavaBlockTags extends BlockTagsProvider {
 	@Override
 	protected void addTags() {
 		tag(BlockTags.MINEABLE_WITH_AXE)
-				.add(Registration.FRAME_BLOCK.get());
+				.add(Registration.FRAME_BLOCK.get())
+				.add(Registration.SLOPE_BLOCK.get());
 		tag(BlockTags.MINEABLE_WITH_PICKAXE)
 				.add(Registration.OBSIDIAN_INSCRIPTIONS.get());
 		tag(BlockTags.NEEDS_STONE_TOOL)

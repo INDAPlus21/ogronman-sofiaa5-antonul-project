@@ -19,6 +19,8 @@ public class BlockStates extends BlockStateProvider {
 
 		simpleBlock(Registration.OBSIDIAN_INSCRIPTIONS.get());
 		simpleBlock(Registration.FRAME_BLOCK.get());
+		//Dont really know how to do this when it isnt a simpleblock...
+		//horizontalBlock(Registration.SLOPE_BLOCK.get(), null);
 	}
 
 }
