@@ -1,7 +1,7 @@
 {
   "variants": {
 		"model=frame": { "model": "lava:block/frame_block" },
-		"model=inscryption": { "model": "lava:block/obsidian_inscriptions", "y": 180 },
-    "model=stone": { "model": "block/stone"}
+		"model=inscription": { "model": "lava:block/obsidian_inscriptions", "y": 180 },
+        "model=stone": { "model": "block/stone"}
   }
 }
