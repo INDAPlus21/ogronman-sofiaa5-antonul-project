@@ -10,6 +10,7 @@ public class ClientSetup {
 	public static void init(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			ItemBlockRenderTypes.setRenderLayer(Registration.FRAME_BLOCK.get(), RenderType.cutout());
+			ItemBlockRenderTypes.setRenderLayer(Registration.SLOPE_BLOCK.get(), RenderType.cutout());
 		});
 	}
 

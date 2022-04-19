@@ -3,7 +3,7 @@ import net.minecraft.util.StringRepresentable;
 
 public enum BlockModel implements StringRepresentable {
    FRAME,
-   INSCRYPTION,
+   INSCRIPTION,
    STONE;
 
    public String toString() {
@@ -13,8 +13,8 @@ public enum BlockModel implements StringRepresentable {
    public String getSerializedName() {
       if (this == FRAME) {
     	  return "frame";
-      }else if (this == INSCRYPTION){
-    	  return "inscryption";
+      }else if (this == INSCRIPTION){
+    	  return "inscription";
       }else {
     	  return "stone";
       }

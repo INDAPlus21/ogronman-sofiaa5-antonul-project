@@ -46,7 +46,7 @@ public class FrameBlock extends Block {
 		} else if (held.getItem() == Registration.FRAME_BLOCK_ITEM.get()) {
 			return InteractionResult.PASS;
 		} else if (held.getItem() == Registration.OBSIDIAN_INSCRIPTIONS_ITEM.get()) {
-			state = state.setValue(TEXTURE, BlockModel.INSCRYPTION);
+			state = state.setValue(TEXTURE, BlockModel.INSCRIPTION);
 			level.setBlock(pos, state, 10);
 			return InteractionResult.CONSUME;
 		} else if (held.getItem() == Items.STONE) {
