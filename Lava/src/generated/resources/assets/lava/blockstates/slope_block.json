@@ -1,8 +1,19 @@
 {
-	"variants": {
-		"facing=north": { "model": "lava:block/slope_block" },
-		"facing=south": { "model": "lava:block/slope_block", "y": 180 },
-		"facing=west": { "model": "lava:block/slope_block", "y": 270 },
-		"facing=east": { "model": "lava:block/slope_block", "y": 90 }
-	}
+  "variants": {
+    "facing=north": {
+      "model": "lava:block/slope_block",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "lava:block/slope_block",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "lava:block/slope_block",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "lava:block/slope_block"
+    }
+  }
 }
