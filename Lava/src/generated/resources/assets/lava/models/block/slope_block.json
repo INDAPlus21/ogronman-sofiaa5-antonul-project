@@ -1,8 +1,7 @@
 {
-  "parent": "minecraft:block/stairs",
+  "parent": "minecraft:block/orientable_vertical",
   "textures": {
     "side": "lava:block/frame_slope_slide",
-    "bottom": "lava:block/frame_block",
-    "top": "lava:block/frame_block"
+    "front": "lava:block/frame_block"
   }
 }

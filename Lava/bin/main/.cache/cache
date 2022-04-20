@@ -1,8 +1,10 @@
 96f4363459881163db59c5054565d3afeb6b6ec8 assets/lava/blockstates/frame_block.json
 494e23d0a9aed63796aaa9f378cc809a4be27e53 assets/lava/blockstates/obsidian_inscriptions.json
+7eb08591973b597f415c7e623964628e34376d6a assets/lava/blockstates/slope_block.json
 5aa65a428b33ae4e05334260a9f65c9145391790 assets/lava/lang/en_us.json
 4b88186f152d08a3e44043b66a67720c3432612d assets/lava/models/block/frame_block.json
 09ea66eb20504f43933dce0385782a3718b1918e assets/lava/models/block/obsidian_inscriptions.json
+1c16d5beedbc34aa449521f1ba55fd3f62eb3886 assets/lava/models/block/slope_block.json
 3850f55f19aee5529a61494d3077a2bf10bf463f assets/lava/models/item/frame_block.json
 1a3c6cdc93ee5c2661bc74a9a33af4d600f1a9ee assets/lava/models/item/obsidian_inscriptions.json
 c0151ceb74228da4157c2c5ba63259e38e807fef assets/lava/models/item/slope_block.json
@@ -14,4 +16,4 @@ f1c19212f7fdbd50678b53e9bf602197e68a64bd data/minecraft/tags/blocks/dragon_immun
 5c4fa0ac8501475f752ee89b30ea0e177f7be439 data/minecraft/tags/blocks/mineable/axe.json
 f1c19212f7fdbd50678b53e9bf602197e68a64bd data/minecraft/tags/blocks/mineable/pickaxe.json
 f1c19212f7fdbd50678b53e9bf602197e68a64bd data/minecraft/tags/blocks/needs_diamond_tool.json
-4c7b1408adcebcbfee7d068ed0118b2f39a6c20c data/minecraft/tags/blocks/needs_stone_tool.json
+362e67a7e0c65f9794952f6f0fc58a7cc06f0092 data/minecraft/tags/blocks/needs_stone_tool.json
