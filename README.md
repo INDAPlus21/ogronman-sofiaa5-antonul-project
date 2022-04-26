@@ -45,7 +45,7 @@ Omtentavecka
 
 - [x]  Add at least one new block
 - [x]  Add at least one new crafting recipe
-- [ ]  Add a block that changes texture depending on another block placed in it
+- [x]  Add a block that changes texture depending on another block placed in it
 - [ ]  Add a slab of that block
 
 ## Want to do
