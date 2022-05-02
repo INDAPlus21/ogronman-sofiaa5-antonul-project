@@ -1,4 +1,7 @@
 Lava/build/
+Lava/.gradle/
+Lava/gradle/
+Lava/.gradle
 Lava/run/crash-reports
 *.gz
 *.log

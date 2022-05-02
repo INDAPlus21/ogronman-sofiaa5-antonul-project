@@ -13,6 +13,10 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
+tasks.withType(Copy).all {
+    duplicatesStrategy 'exclude'
+  }
+
 // https://mcforge.readthedocs.io/en/1.18.x/gettingstarted/versioning/#versioning
 version = '1.0' // MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH
 group = 'se.datasektionen.lava' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
@@ -87,7 +91,7 @@ minecraft {
 
         data {
             workingDirectory project.file('run')
-
+			
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
             // "SCAN": For mods scan.
@@ -99,6 +103,8 @@ minecraft {
             // You can set various levels here.
             // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
             property 'forge.logging.console.level', 'debug'
+            
+			// duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
             args '--mod', 'lava', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')

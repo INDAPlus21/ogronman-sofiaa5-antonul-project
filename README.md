@@ -43,14 +43,14 @@ Omtentavecka
 
 ## Will do
 
-- [ ]  Add at least one new block
-- [ ]  Add at least one new crafting recipe
-- [ ]  Add a block that changes texture depending on another block placed in it
+- [x]  Add at least one new block
+- [x]  Add at least one new crafting recipe
+- [x]  Add a block that changes texture depending on another block placed in it
 - [ ]  Add a slab of that block
 
 ## Want to do
 
-- [ ]  Add different shapes
+- [x]  Add different shapes
 - [ ]  Add ability to waterlog the different shapes
 - [ ]  Add a custom generated biome
 - [ ]  Add a custom generated tree
