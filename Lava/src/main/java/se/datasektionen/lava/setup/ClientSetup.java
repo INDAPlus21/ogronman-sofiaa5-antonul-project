@@ -5,6 +5,7 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import se.datasektionen.lava.blocks.FrameBlock;
+import se.datasektionen.lava.blocks.SlopeBlock;
 
 public class ClientSetup {
 
@@ -14,6 +15,7 @@ public class ClientSetup {
 			ItemBlockRenderTypes.setRenderLayer(Registration.SLOPE_BLOCK.get(), RenderType.cutout());
 		});
 		FrameBlock.setupFrame();
+		SlopeBlock.setupFrame();
 	}
 
 }
