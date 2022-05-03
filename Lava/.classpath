@@ -5,6 +5,10 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:\Users\ozkar\Documents\git\ogronman-sofiaa5-antonul-project\Lava\build\natives"/>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+<<<<<<< HEAD
+=======
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:\FakeDocuments\GitHub\ogronman-sofiaa5-antonul-project\Lava\build\natives"/>
+>>>>>>> 01c9e8e0aaef062b3463da9d01c1e3b25dc70cb5
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" output="bin/main" path="src/main/resources">
@@ -12,6 +16,10 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:\Users\ozkar\Documents\git\ogronman-sofiaa5-antonul-project\Lava\build\natives"/>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+<<<<<<< HEAD
+=======
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:\FakeDocuments\GitHub\ogronman-sofiaa5-antonul-project\Lava\build\natives"/>
+>>>>>>> 01c9e8e0aaef062b3463da9d01c1e3b25dc70cb5
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" output="bin/main" path="src/generated/resources">
@@ -19,6 +27,10 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:\Users\ozkar\Documents\git\ogronman-sofiaa5-antonul-project\Lava\build\natives"/>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+<<<<<<< HEAD
+=======
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:\FakeDocuments\GitHub\ogronman-sofiaa5-antonul-project\Lava\build\natives"/>
+>>>>>>> 01c9e8e0aaef062b3463da9d01c1e3b25dc70cb5
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" output="bin/test" path="src/test/java">
@@ -27,6 +39,11 @@
 			<attribute name="test" value="true"/>
 			<attribute name="gradle_scope" value="test"/>
 			<attribute name="gradle_used_by_scope" value="test"/>
+<<<<<<< HEAD
+=======
+			<attribute name="test" value="true"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:\FakeDocuments\GitHub\ogronman-sofiaa5-antonul-project\Lava\build\natives"/>
+>>>>>>> 01c9e8e0aaef062b3463da9d01c1e3b25dc70cb5
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" output="bin/test" path="src/test/resources">
@@ -35,6 +52,11 @@
 			<attribute name="test" value="true"/>
 			<attribute name="gradle_scope" value="test"/>
 			<attribute name="gradle_used_by_scope" value="test"/>
+<<<<<<< HEAD
+=======
+			<attribute name="test" value="true"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:\FakeDocuments\GitHub\ogronman-sofiaa5-antonul-project\Lava\build\natives"/>
+>>>>>>> 01c9e8e0aaef062b3463da9d01c1e3b25dc70cb5
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/">

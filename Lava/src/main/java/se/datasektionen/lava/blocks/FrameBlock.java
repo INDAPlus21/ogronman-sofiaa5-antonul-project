@@ -71,19 +71,18 @@ public class FrameBlock extends Block {
 			}
 		}
 	}
-	
+
 	private void removeState(BlockState state, Player player) {
 		String item_name = state.getValue(TEXTURE).toString();
 		ResourceLocation rl = new ResourceLocation(item_name);
 		Item new_item = ForgeRegistries.ITEMS.getValue(rl);
-		
+
 		if (new_item == Items.AIR) {
-			rl = new ResourceLocation(LavaMod.MODID,item_name);
+			rl = new ResourceLocation(LavaMod.MODID, item_name);
 			new_item = ForgeRegistries.ITEMS.getValue(rl);
+		} else if (new_item != Registration.FRAME_BLOCK_ITEM.get()) {
+			player.addItem(new ItemStack(new_item));
 		}
-		
-		
-		player.addItem(new ItemStack(new_item));	
 	}
 
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
@@ -98,7 +97,7 @@ public class FrameBlock extends Block {
 		for (int i = 0; i < tempVal.length; i++) {
 			eligibleBlocks.add(i, tempVal[i].toString());
 		}
-		
+
 	}
 
 	@Override
