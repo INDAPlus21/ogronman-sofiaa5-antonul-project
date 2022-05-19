@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "lava:block/slope_block"
+      "model": "lava:block/frame_slope"
     },
     "facing=south": {
-      "model": "lava:block/slope_block",
+      "model": "lava:block/frame_slope",
       "y": 180
     },
     "facing=west": {
-      "model": "lava:block/slope_block",
+      "model": "lava:block/frame_slope",
       "y": 270
     },
     "facing=east": {
-      "model": "lava:block/slope_block",
+      "model": "lava:block/frame_slope",
       "y": 90
     }
   }

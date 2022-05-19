@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/orientable_vertical",
   "textures": {
-    "side": "lava:block/frame_slope_slide",
+    "side": "lava:block/frame_slope_side",
     "front": "lava:block/frame_block"
   }
 }

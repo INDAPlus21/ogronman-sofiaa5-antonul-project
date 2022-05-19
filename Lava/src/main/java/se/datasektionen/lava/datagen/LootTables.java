@@ -12,7 +12,9 @@ public class LootTables extends BaseLootTableProvider {
 
     @Override
     protected void addTables() {
-        lootTables.put(Registration.FRAME_BLOCK.get(), createSimpleTable("frame_block", Registration.FRAME_BLOCK.get()));
-        lootTables.put(Registration.SLOPE_BLOCK.get(), createSimpleTable("slope_block", Registration.SLOPE_BLOCK.get()));
+        lootTables.put(Registration.FRAME_BLOCK.get(),
+                createSimpleTable("frame_block", Registration.FRAME_BLOCK.get()));
+        lootTables.put(Registration.FRAME_SLOPE.get(),
+                createSimpleTable("frame_slope", Registration.FRAME_SLOPE.get()));
     }
 }

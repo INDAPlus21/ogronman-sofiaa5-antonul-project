@@ -1,6 +1,8 @@
 {
   "block.lava.frame_block": "Frame Block",
+  "block.lava.frame_slab": "Frame Slab Block",
+  "block.lava.frame_slope": "Frame Slope Block",
+  "block.lava.frame_stairs": "Frame Stair Block",
   "block.lava.obsidian_inscriptions": "Obsidian Inscriptions",
-  "block.lava.slope_block": "Slope Block",
   "itemGroup.lavamod": "Lava"
 }

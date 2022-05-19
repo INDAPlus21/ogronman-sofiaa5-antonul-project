@@ -2,13 +2,13 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "slope_block",
+      "name": "frame_slope",
       "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lava:slope_block"
+          "name": "lava:frame_slope"
         }
       ]
     }
