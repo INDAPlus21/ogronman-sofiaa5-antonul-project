@@ -35,7 +35,7 @@ public class FrameBlock extends Block {
 
 	@Override
 	public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand,
-			BlockHitResult result) {
+		BlockHitResult result) {
 		ItemStack held = player.getItemInHand(hand);
 		Item heldItem = held.getItem();
 		if (!level.isClientSide && heldItem == Items.AIR) {
@@ -97,7 +97,6 @@ public class FrameBlock extends Block {
 		for (int i = 0; i < tempVal.length; i++) {
 			eligibleBlocks.add(i, tempVal[i].toString());
 		}
-
 	}
 
 	@Override

@@ -2,6 +2,7 @@ package se.datasektionen.lava.datagen;
 
 import se.datasektionen.lava.LavaMod;
 import se.datasektionen.lava.blocks.FrameBlock;
+import se.datasektionen.lava.blocks.FrameStairs;
 import se.datasektionen.lava.blocks.utils.ModelProperty;
 import se.datasektionen.lava.setup.Registration;
 import net.minecraft.client.renderer.block.model.BlockModel;
@@ -9,6 +10,7 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraftforge.client.model.generators.BlockModelBuilder;
 import net.minecraftforge.client.model.generators.BlockModelProvider;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -32,6 +34,7 @@ public class BlockStates extends BlockStateProvider {
 		// simpleBlock(Registration.FRAME_BLOCK.get());
 		registerSlope();
 		registerFrame();
+		//registerFrameStairs();
 		// dumbSpaghetti();
 		// Dont really know how to do this when it isnt a simpleblock...
 		// horizontalBlock(Registration.SLOPE_BLOCK.get(), null);
@@ -40,9 +43,9 @@ public class BlockStates extends BlockStateProvider {
 	private void registerSlope() {
 
 		// BlockModelBuilder slope = models().getBuilder("block/slope_block");
-		Block block = Registration.SLOPE_BLOCK.get();
+		Block block = Registration.FRAME_SLOPE.get();
 		ResourceLocation slope_back = modLoc("block/frame_block");
-		ResourceLocation slope_side = modLoc("block/frame_slope_slide");
+		ResourceLocation slope_side = modLoc("block/frame_slope_side");
 		horizontalBlock(block, models().orientableVertical(block.getRegistryName().getPath(), slope_side, slope_back));
 	}
 
@@ -82,7 +85,6 @@ public class BlockStates extends BlockStateProvider {
 
 		PartialBlockstate partialBlockstate = null;
 		int counter = 0;
-	
 
 		for (ModelProperty modelProperty : ModelProperty.values()) {
 			counter++;
@@ -101,18 +103,55 @@ public class BlockStates extends BlockStateProvider {
 			} else {
 				texture = modLoc(index_block);
 			}
-			//System.out.println(texture);
+			// System.out.println(texture);
 			UncheckedModelFile file = new UncheckedModelFile(texture);
 			ConfiguredModel model = new ConfiguredModel(file);
 
 			partialBlockstate = partialBlockstate.with(FrameBlock.TEXTURE, modelProperty).addModels(model);
 		}
-		
+
 		partialBlockstate = partialBlockstate.partialState();
 		String index_block = "block/frame_block";
 		ResourceLocation texture = modLoc(index_block);
 		ConfiguredModel model = new ConfiguredModel(models().cubeAll(index_block, texture));
 		partialBlockstate = partialBlockstate.with(FrameBlock.TEXTURE, ModelProperty.frame_block).addModels(model);
+
+	}
+
+	private void registerFrameStairs() {
+		Block block = Registration.FRAME_STAIRS.get();
+		PartialBlockstate partialBlockstate = null;
+		int counter = 0;
+
+		for (ModelProperty modelProperty : ModelProperty.values()) {
+			counter++;
+			// System.out.println(modelProperty);
+			String index_block = "block/" + modelProperty.toString();
+
+			if (partialBlockstate == null) {
+				partialBlockstate = getVariantBuilder(block).partialState();
+			} else {
+				partialBlockstate = partialBlockstate.partialState();
+			}
+
+			ResourceLocation texture = null;
+			if (counter < 686) {
+				texture = mcLoc(index_block);
+			} else {
+				texture = modLoc(index_block);
+			}
+			// System.out.println(texture);
+			UncheckedModelFile file = new UncheckedModelFile(texture);
+			ConfiguredModel model = new ConfiguredModel(file);
+
+			partialBlockstate = partialBlockstate.with(FrameStairs.TEXTURE, modelProperty).addModels(model);
+		}
+
+		partialBlockstate = partialBlockstate.partialState();
+		String index_block = "block/frame_block";
+		ResourceLocation texture = modLoc(index_block);
+		ConfiguredModel model = new ConfiguredModel(models().cubeAll(index_block, texture));
+		partialBlockstate = partialBlockstate.with(FrameStairs.TEXTURE, ModelProperty.frame_block).addModels(model);
 
 	}
 
