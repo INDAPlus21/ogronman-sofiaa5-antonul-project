@@ -5,12 +5,14 @@ import static se.datasektionen.lava.LavaMod.MODID;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.registries.RegistryObject;
@@ -18,6 +20,7 @@ import net.minecraft.world.level.levelgen.feature.StructureFeature;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import se.datasektionen.lava.blocks.FrameBlock;
 import se.datasektionen.lava.blocks.SlopeBlock;
+import se.datasektionen.lava.entities.ShapeshifterEntity;
 
 public class Registration {
 
@@ -49,6 +52,14 @@ public class Registration {
 	
 	public static final RegistryObject<SlopeBlock> SLOPE_BLOCK = BLOCKS.register("slope_block", () -> new SlopeBlock());
 	public static final RegistryObject<Item> SLOPE_BLOCK_ITEM = fromBlock(SLOPE_BLOCK);
+	
+	public static final RegistryObject<EntityType<ShapeshifterEntity>> SHAPESHIFTER = ENTITIES.register("shapeshifter", () -> EntityType.Builder.of(ShapeshifterEntity::new, MobCategory.CREATURE)
+				.sized(2.0f, 2.0f)
+				.clientTrackingRange(8)
+				.setShouldReceiveVelocityUpdates(false)
+				.build("shapeshifter"));
+	
+    public static final RegistryObject<Item> SHAPESHIFTER_EGG = ITEMS.register("shapeshifter", () -> new ForgeSpawnEggItem(SHAPESHIFTER, 0xff0000, 0x00ff00, ITEM_PROPERTIES));
 
 	public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
 		return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

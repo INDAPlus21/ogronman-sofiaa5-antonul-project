@@ -20,7 +20,7 @@ public class ItemTags extends ItemTagsProvider {
 
 	@Override
 	protected void addTags() {
-
+		
 	}
 
 	@Override

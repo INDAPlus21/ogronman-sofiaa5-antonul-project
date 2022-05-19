@@ -89,7 +89,7 @@ public class SlopeBlock extends HorizontalDirectionalBlock {
 		Item heldItem = held.getItem();
 		if (!level.isClientSide && heldItem == Items.AIR) {
 			return InteractionResult.FAIL;
-		} else if (heldItem == Registration.FRAME_BLOCK_ITEM.get()) {
+		} else if (heldItem == Registration.SLOPE_BLOCK_ITEM.get() || heldItem == Registration.FRAME_BLOCK_ITEM.get()) {
 			return InteractionResult.PASS;
 		} else if (heldItem != null && eligibleBlocks.contains(heldItem.toString())) {
 			ModelProperty newProperty = ModelProperty.valueOf(heldItem.toString());

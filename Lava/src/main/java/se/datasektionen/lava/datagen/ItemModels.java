@@ -19,6 +19,7 @@ public class ItemModels extends ItemModelProvider {
 		withExistingParent(Registration.OBSIDIAN_INSCRIPTIONS_ITEM.get().getRegistryName().getPath(), modLoc("block/obsidian_inscriptions"));
 		withExistingParent(Registration.FRAME_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/frame_block"));
 		withExistingParent(Registration.SLOPE_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/slope_block"));
+		withExistingParent(Registration.SHAPESHIFTER_EGG.get().getRegistryName().getPath(), mcLoc("item/template_spawn_egg"));
 	}
 
 }

@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "lava:slope_block",
-    "lava:frame_block"
+    "lava:slope_block"
   ]
 }

@@ -54,32 +54,8 @@
     "model=dark_oak_planks": {
       "model": "minecraft:block/dark_oak_planks"
     },
-    "model=oak_sapling": {
-      "model": "minecraft:block/oak_sapling"
-    },
-    "model=spruce_sapling": {
-      "model": "minecraft:block/spruce_sapling"
-    },
-    "model=birch_sapling": {
-      "model": "minecraft:block/birch_sapling"
-    },
-    "model=jungle_sapling": {
-      "model": "minecraft:block/jungle_sapling"
-    },
-    "model=acacia_sapling": {
-      "model": "minecraft:block/acacia_sapling"
-    },
-    "model=dark_oak_sapling": {
-      "model": "minecraft:block/dark_oak_sapling"
-    },
     "model=bedrock": {
       "model": "minecraft:block/bedrock"
-    },
-    "model=water": {
-      "model": "minecraft:block/water"
-    },
-    "model=lava": {
-      "model": "minecraft:block/lava"
     },
     "model=sand": {
       "model": "minecraft:block/sand"
@@ -240,35 +216,8 @@
     "model=note_block": {
       "model": "minecraft:block/note_block"
     },
-    "model=powered_rail": {
-      "model": "minecraft:block/powered_rail"
-    },
-    "model=detector_rail": {
-      "model": "minecraft:block/detector_rail"
-    },
-    "model=sticky_piston": {
-      "model": "minecraft:block/sticky_piston"
-    },
-    "model=cobweb": {
-      "model": "minecraft:block/cobweb"
-    },
     "model=grass": {
       "model": "minecraft:block/grass"
-    },
-    "model=fern": {
-      "model": "minecraft:block/fern"
-    },
-    "model=dead_bush": {
-      "model": "minecraft:block/dead_bush"
-    },
-    "model=seagrass": {
-      "model": "minecraft:block/seagrass"
-    },
-    "model=piston": {
-      "model": "minecraft:block/piston"
-    },
-    "model=piston_head": {
-      "model": "minecraft:block/piston_head"
     },
     "model=white_wool": {
       "model": "minecraft:block/white_wool"
@@ -318,54 +267,6 @@
     "model=black_wool": {
       "model": "minecraft:block/black_wool"
     },
-    "model=moving_piston": {
-      "model": "minecraft:block/moving_piston"
-    },
-    "model=dandelion": {
-      "model": "minecraft:block/dandelion"
-    },
-    "model=poppy": {
-      "model": "minecraft:block/poppy"
-    },
-    "model=blue_orchid": {
-      "model": "minecraft:block/blue_orchid"
-    },
-    "model=allium": {
-      "model": "minecraft:block/allium"
-    },
-    "model=azure_bluet": {
-      "model": "minecraft:block/azure_bluet"
-    },
-    "model=red_tulip": {
-      "model": "minecraft:block/red_tulip"
-    },
-    "model=orange_tulip": {
-      "model": "minecraft:block/orange_tulip"
-    },
-    "model=white_tulip": {
-      "model": "minecraft:block/white_tulip"
-    },
-    "model=pink_tulip": {
-      "model": "minecraft:block/pink_tulip"
-    },
-    "model=oxeye_daisy": {
-      "model": "minecraft:block/oxeye_daisy"
-    },
-    "model=cornflower": {
-      "model": "minecraft:block/cornflower"
-    },
-    "model=wither_rose": {
-      "model": "minecraft:block/wither_rose"
-    },
-    "model=lily_of_the_valley": {
-      "model": "minecraft:block/lily_of_the_valley"
-    },
-    "model=brown_mushroom": {
-      "model": "minecraft:block/brown_mushroom"
-    },
-    "model=red_mushroom": {
-      "model": "minecraft:block/red_mushroom"
-    },
     "model=gold_block": {
       "model": "minecraft:block/gold_block"
     },
@@ -387,17 +288,8 @@
     "model=obsidian": {
       "model": "minecraft:block/obsidian"
     },
-    "model=torch": {
-      "model": "minecraft:block/torch"
-    },
-    "model=wall_torch": {
-      "model": "minecraft:block/wall_torch"
-    },
     "model=spawner": {
       "model": "minecraft:block/spawner"
-    },
-    "model=oak_stairs": {
-      "model": "minecraft:block/oak_stairs"
     },
     "model=chest": {
       "model": "minecraft:block/chest"
@@ -420,71 +312,14 @@
     "model=furnace": {
       "model": "minecraft:block/furnace"
     },
-    "model=oak_sign": {
-      "model": "minecraft:block/oak_sign"
-    },
-    "model=spruce_sign": {
-      "model": "minecraft:block/spruce_sign"
-    },
-    "model=birch_sign": {
-      "model": "minecraft:block/birch_sign"
-    },
-    "model=acacia_sign": {
-      "model": "minecraft:block/acacia_sign"
-    },
-    "model=jungle_sign": {
-      "model": "minecraft:block/jungle_sign"
-    },
-    "model=dark_oak_sign": {
-      "model": "minecraft:block/dark_oak_sign"
-    },
-    "model=ladder": {
-      "model": "minecraft:block/ladder"
-    },
-    "model=rail": {
-      "model": "minecraft:block/rail"
-    },
-    "model=cobblestone_stairs": {
-      "model": "minecraft:block/cobblestone_stairs"
-    },
     "model=lever": {
       "model": "minecraft:block/lever"
-    },
-    "model=stone_pressure_plate": {
-      "model": "minecraft:block/stone_pressure_plate"
-    },
-    "model=oak_pressure_plate": {
-      "model": "minecraft:block/oak_pressure_plate"
-    },
-    "model=spruce_pressure_plate": {
-      "model": "minecraft:block/spruce_pressure_plate"
-    },
-    "model=birch_pressure_plate": {
-      "model": "minecraft:block/birch_pressure_plate"
-    },
-    "model=jungle_pressure_plate": {
-      "model": "minecraft:block/jungle_pressure_plate"
-    },
-    "model=acacia_pressure_plate": {
-      "model": "minecraft:block/acacia_pressure_plate"
-    },
-    "model=dark_oak_pressure_plate": {
-      "model": "minecraft:block/dark_oak_pressure_plate"
     },
     "model=redstone_ore": {
       "model": "minecraft:block/redstone_ore"
     },
     "model=deepslate_redstone_ore": {
       "model": "minecraft:block/deepslate_redstone_ore"
-    },
-    "model=redstone_torch": {
-      "model": "minecraft:block/redstone_torch"
-    },
-    "model=redstone_wall_torch": {
-      "model": "minecraft:block/redstone_wall_torch"
-    },
-    "model=stone_button": {
-      "model": "minecraft:block/stone_button"
     },
     "model=ice": {
       "model": "minecraft:block/ice"

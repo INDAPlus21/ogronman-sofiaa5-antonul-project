@@ -2,5 +2,7 @@
   "block.lava.frame_block": "Frame Block",
   "block.lava.obsidian_inscriptions": "Obsidian Inscriptions",
   "block.lava.slope_block": "Slope Block",
+  "entity.lava.shapeshifter": "Shapeshifter",
+  "item.lava.shapeshifter": "Shapeshifter Egg",
   "itemGroup.lavamod": "Lava"
 }

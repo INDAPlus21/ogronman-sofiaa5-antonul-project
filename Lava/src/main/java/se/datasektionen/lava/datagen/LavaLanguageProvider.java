@@ -20,6 +20,9 @@ public class LavaLanguageProvider extends LanguageProvider {
 		add(Registration.OBSIDIAN_INSCRIPTIONS.get(), "Obsidian Inscriptions");
 		add(Registration.FRAME_BLOCK.get(), "Frame Block");
 		add(Registration.SLOPE_BLOCK.get(), "Slope Block");
+		add(Registration.SHAPESHIFTER_EGG.get(), "Shapeshifter Spawn Egg");
+		
+		add(Registration.SHAPESHIFTER.get(), "Shapeshifter");
 	}
 
 }
