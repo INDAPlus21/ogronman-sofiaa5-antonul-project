@@ -21,6 +21,7 @@ public class LavaLanguageProvider extends LanguageProvider {
 		add(Registration.FRAME_BLOCK.get(), "Frame Block");
 		add(Registration.FRAME_SLOPE.get(), "Frame Slope Block");
 		add(Registration.FRAME_STAIRS.get(), "Frame Stair Block");
+		add(Registration.FRAME_SLAB.get(), "Frame Slab Block");
 	}
 
 }

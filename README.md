@@ -38,7 +38,6 @@ Omtentavecka
 
 ### Week 22
 
-
 ## What we have done
 
 ## Will do
@@ -46,12 +45,12 @@ Omtentavecka
 - [x]  Add at least one new block
 - [x]  Add at least one new crafting recipe
 - [x]  Add a block that changes texture depending on another block placed in it
-- [ ]  Add a slab of that block
+- [x]  Add a slab of that block
 
 ## Want to do
 
 - [x]  Add different shapes
-- [ ]  Add ability to waterlog the different shapes
+- [x]  Add ability to waterlog the different shapes
 - [ ]  Add a custom generated biome
 - [ ]  Add a custom generated tree
 - [ ]  Add a custom liquid

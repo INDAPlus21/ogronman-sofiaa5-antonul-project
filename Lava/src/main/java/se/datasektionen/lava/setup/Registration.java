@@ -18,6 +18,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.level.levelgen.feature.StructureFeature;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import se.datasektionen.lava.blocks.FrameBlock;
+import se.datasektionen.lava.blocks.FrameSlab;
 import se.datasektionen.lava.blocks.FrameSlope;
 import se.datasektionen.lava.blocks.FrameStairs;
 import net.minecraft.world.level.block.StairBlock;
@@ -63,6 +64,9 @@ public class Registration {
 
 	public static final RegistryObject<FrameStairs> FRAME_STAIRS = BLOCKS.register("frame_stairs", FrameStairs::new);
 	public static final RegistryObject<Item> FRAME_STAIRS_ITEM = fromBlock(FRAME_STAIRS);
+
+	public static final RegistryObject<FrameSlab> FRAME_SLAB = BLOCKS.register("frame_slab", FrameSlab::new);
+	public static final RegistryObject<Item> FRAME_SLAB_ITEM = fromBlock(FRAME_SLAB);
 
 	public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
 		return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

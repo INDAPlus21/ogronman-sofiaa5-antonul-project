@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "lava:block/frame_slab"
+        },
+        "type=double": {
+            "model": "lava:block/frame_block"
+        },
+        "type=top": {
+            "model": "lava:block/frame_slab_top"
+        }
+    }
+}

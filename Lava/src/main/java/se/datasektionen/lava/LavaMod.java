@@ -54,5 +54,6 @@ public class LavaMod {
     private void clientSetup(final FMLClientSetupEvent event) {
 
         ItemBlockRenderTypes.setRenderLayer(Registration.FRAME_STAIRS.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(Registration.FRAME_SLAB.get(), RenderType.translucent());
     }
 }
